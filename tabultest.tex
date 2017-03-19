@@ -1,17 +1,19 @@
 \documentclass[12pt,uplatex,dvipdfmx]{jsarticle} %times new roman
 \usepackage{graphicx}   % graphicx Excel から図を入れたいときは、
 \usepackage{tikz}
+
+% ccline (二重線の alias)
+\newcommand{\ccline}[1]{\cline{#1} \noalign{\vspace{1pt}} \cline{#1}}
+
 \begin{document}
 \begin{center}
  \begin{tabular}{lr|lr}
-\hline
+  \hline
   現金 & (\hspace{4zw}) & 資本金 & (\hspace{4zw}) \\
   売掛金 & (\hspace{4zw}) &
           \multicolumn{2}{r}{\tikz [baseline=0] \draw (1,0.3) -- (0,-0.2) -- (2.5,-0.2) ;}
-           \\ \cline{2-2}
-  & (\hspace{4zw}) & & (\hspace{4zw}) \\
-  \cline{2-2} \noalign{\vspace{1pt}} \cline{2-2}
-  \cline{4-4} \noalign{\vspace{1pt}} \cline{4-4}
-\end{tabular}
+          \\ \cline{2-2}
+  & (\hspace{4zw}) & & (\hspace{4zw}) \\ \ccline{2-2} \ccline{4-4}
+ \end{tabular}
 \end{center}
 \end{document}
