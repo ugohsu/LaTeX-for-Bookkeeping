@@ -3,7 +3,7 @@
 ## 二重線 cline
 
 ```
-\cline{n-n} \noalign{\vspace{1pt}} \cline{n-n}
+\newcommand{\ccline}[1]{\cline{#1} \noalign{\vspace{1pt}} \cline{#1}}
 ```
 
 ## 空白線
