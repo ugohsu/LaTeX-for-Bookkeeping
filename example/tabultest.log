@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7-u1.21-160201-2.6 (utf8.uptex) (TeX Live 2016) (preloaded format=uplatex 2017.1.27)  20 MAR 2017 21:09
+This is e-upTeX, Version 3.14159265-p3.7-u1.21-160201-2.6 (utf8.uptex) (TeX Live 2016) (preloaded format=uplatex 2017.1.27)  20 MAR 2017 22:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,23 +409,23 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 4.62341pt on input line 10.
 
-Overfull \vbox (3.4264pt too high) detected at line 15
+Overfull \vbox (1.09041pt too high) detected at line 16
  []
 
 
-Overfull \vbox (4.49823pt too high) detected at line 29
+Overfull \vbox (1.45279pt too high) detected at line 29
  []
 
 [1
 
 ] (./tabultest.aux) ) 
 Here is how much of TeX's memory you used:
- 10743 strings out of 493679
- 222442 string characters out of 6149847
+ 10738 strings out of 493679
+ 222270 string characters out of 6149847
  258420 words of memory out of 5000000
- 14158 multiletter control sequences out of 15000+600000
+ 14153 multiletter control sequences out of 15000+600000
  8303 words of font info for 44 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 55i,10n,54p,456b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,10n,54p,456b,553s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tabultest.dvi (1 page, 1964 bytes).
+Output written on tabultest.dvi (1 page, 1960 bytes).

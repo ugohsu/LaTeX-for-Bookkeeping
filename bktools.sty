@@ -1,5 +1,9 @@
 % alias of ccline
-\newcommand{\ccline}[1]{\cline{#1} \noalign{\vspace{1.4pt}} \cline{#1}}
+\newcommand{\ccline}[1]{
+    \cline{#1}
+    \noalign{\vspace{1.4pt}} 
+    \cline{#1}
+    \noalign{\vspace{-1.4pt}}}
 
 % alias of multicolumn and multirow
 \newcommand{\mcr}[2]{\multicolumn{2}{r}{\multirow{#1}{*}{#2}}}

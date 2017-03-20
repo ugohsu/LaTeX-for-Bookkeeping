@@ -48,7 +48,11 @@ bktools で定義した、ccline 関数を使用。使い方は cline と同様�
 ### ccline
 
 ```
-\newcommand{\ccline}[1]{\cline{#1} \noalign{\vspace{1.4pt}} \cline{#1}}
+\newcommand{\ccline}[1]{
+    \cline{#1}
+    \noalign{\vspace{1.4pt}}
+    \cline{#1}
+    \noalign{\vspace{1.4pt}}}
 ```
 
 ## mcr
